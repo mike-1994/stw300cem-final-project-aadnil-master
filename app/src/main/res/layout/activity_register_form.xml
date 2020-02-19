@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterForm"
+    android:orientation="vertical"
+    android:background="@drawable/gradientbackground"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/create_acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE ACCOUNT"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:gravity="center"/>
+
+    <!-- EMAIL INPUT -->
+    <EditText
+        android:id="@+id/email_Et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="100dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="12dp"
+        android:hint="Email"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/reg_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:textSize="20dp"
+        android:drawablePadding="12dp"
+        />
+    <EditText
+        android:id="@+id/reg_lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:drawablePadding="12dp"
+        android:hint="Last Name"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"/>
+    <EditText
+        android:id="@+id/reg_phnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:drawablePadding="12dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        />
+
+
+    <!--PASSWORD INPUT -->
+    <EditText
+        android:id="@+id/pwd_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/reg_repwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="12dp"
+        android:hint="Re-Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/register_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SignUp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/button"/>
+
+
+
+    
+
+</LinearLayout>

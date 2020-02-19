@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Dashboard2.Home">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:background="@drawable/gradientbackground">
+
+// For Car
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/car"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="#FF9800"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:paddingTop="32dp"
+            >
+
+            <TextView
+                android:id="@+id/total_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Space"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+            <TextView
+                android:id="@+id/ts_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="200"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="#00BCD4"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:paddingTop="32dp"
+            >
+            <TextView
+                android:id="@+id/av_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Available Space"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+            <TextView
+                android:id="@+id/av_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="150"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+
+        </LinearLayout>
+
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="#D60E53"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:paddingTop="32dp"
+            >
+            <TextView
+                android:id="@+id/u_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Space In Use"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+            <TextView
+                android:id="@+id/s_num_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+
+        </LinearLayout>
+
+        // for Bike
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_directions_bike_black_24dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="#FF9800"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:paddingTop="32dp"
+            >
+
+            <TextView
+                android:id="@+id/b_total_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Space"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+            <TextView
+                android:id="@+id/b_ts_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="100"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+
+        </LinearLayout>
+
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="#00BCD4"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:paddingTop="32dp"
+            >
+            <TextView
+                android:id="@+id/b_av_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Available Space"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+            <TextView
+                android:id="@+id/b_av_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="20"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="#D60E53"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:paddingTop="32dp"
+            >
+            <TextView
+                android:id="@+id/b_u_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Space In Use"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+            <TextView
+                android:id="@+id/b_s_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="80"
+                android:gravity="center"
+                android:textSize="32sp"
+                />
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" -->
+                <!--android:hint=""-->
+                <!--android:id="@+id/empty"/>-->
+
+             </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
