@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3581F3</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#23283A</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="pink">#fe104d</color>
+    <color name="grey">#bfbfbf</color>
+    <color name="white">#ffffff</color>
+    <color name="lightBlue">#312be9</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackground">#EEEEEE</color>
+
+    <color name="primesec">#00574B</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>s
 </resources>

@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.digitalparking">
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="edu.softwarica.android.project.wearit">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <dist:module dist:instant="true" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MyBooking"></activity>
-        <activity android:name=".Dashboard2.New" />
-        <activity android:name=".BookingActivity" />
-        <activity android:name=".Profile" />
-        <activity android:name=".SplashScreen">
+        <activity android:name=".activities.register.SpashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".About_Us" />
-        <activity android:name=".Dashboard2.Home" />
-        <activity android:name=".Maindashboard" />
-        <activity android:name=".Available_Space" />
-        <activity android:name=".Dashboard" />
-        <activity android:name=".RegisterForm" />
-        <activity android:name=".FeedbackActivity"></activity>
+        <activity android:name=".activities.login.LoginActivity">
+
+        </activity>
+        <activity android:name=".activities.register.RegisterActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginForm" />
+        <activity android:name=".Main" />
+        <activity android:name=".activities.DetailActivity" />
+        <activity android:name=".base.BaseActivity" />
+        <activity android:name=".activities.CartActivity" />
     </application>
 
 </manifest>
